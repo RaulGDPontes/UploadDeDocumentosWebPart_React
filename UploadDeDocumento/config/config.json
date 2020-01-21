@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "upload-de-documentos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadDeDocumentos/UploadDeDocumentosWebPart.js",
+          "manifest": "./src/webparts/uploadDeDocumentos/UploadDeDocumentosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UploadDeDocumentosWebPartStrings": "lib/webparts/uploadDeDocumentos/loc/{locale}.js"
+  }
+}
